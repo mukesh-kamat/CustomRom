@@ -37,3 +37,4 @@ function DFS(node) {
       });
   }
 }
+console.log(DFS("a"))
