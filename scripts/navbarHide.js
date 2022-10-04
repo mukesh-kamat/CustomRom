@@ -13,11 +13,11 @@ window.onscroll = function () {
 function DFS(node) {
   // Create a Stack and add our initial node in it
   let s = new Stack(this.nodes.length);
-  let explored = new Set();
+  let visited = new Set();
   s.push(node);
 
   // Mark the first node as explored
-  explored.add(node);
+  visited.add(node);
 
   // We'll continue till our Stack gets empty
   while (!s.isEmpty()) {
@@ -30,9 +30,9 @@ function DFS(node) {
     // 2. We filter out the nodes that have already been explored.
     // 3. Then we mark each unexplored node as explored and push it to the Stack.
     this.edges[t]
-      .filter(n => !explored.has(n))
+      .filter(n => !visited.has(n))
       .forEach(n => {
-        explored.add(n);
+        visited.add(n);
         s.push(n);
       });
   }
