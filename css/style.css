@@ -1,42 +1,40 @@
-* {
-
+*{  
+  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-.clearfix:after {
+.clearfix:after{
     content: "";
     display: grid;
-    clear: both;
+    clear:both;
 
 }
 
-body {
+body{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size:20px;
 }
 
-p {
+p{
     text-align: justify;
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 10px ;
     line-height: 27px;
     word-spacing: 1px;
     font-family: serif;
 }
 
-#navbar {
-    color: rgba(255, 17, 0, 0.849);
-    font-family: New Century, serif;
+#navbar{
+    color:rgba(255, 17, 0, 0.849);
+    font-family:New Century,serif;
     font-size: 70px;
-    background-color: black;
-    padding-left: 13%;
+    background-color:black;
+    padding-left:13%;
     border-style: double;
     position: fixed;
-    top: 0;
-    left: 0;
+    top:0; left:0;
     width: 100%;
     white-space: nowrap;
     transition: top 0.3s;
@@ -61,41 +59,36 @@ p {
     /* testing ends */
 
 }
-
-#navbar strong {
-    margin-left: 100px;
+#navbar strong{
     padding-left: 2.5%;
 }
 
-#navbar img {
-    float: left;
+#navbar img{
+    float:left;
     color: white;
     height: 70px;
     width: 70px;
     filter: invert(100%);
 }
 
-.emptySpace {
+.emptySpace{
     height: 1.8cm;
 }
 
-h2 {
-    color: teal;
+h2{
+    color:teal;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 10px ;
 
 }
 
-h3 {
-    color: rgb(183, 145, 255);
-    margin-top: 30px;
-    margin-bottom: 10px;
+h3{ 
+    color:yellowgreen;
+    margin-bottom:10px;
     margin-left: 10px;
-    text-decoration: underline;
 }
-
-img {
+img{
     width: 20%;
     height: auto;
     margin-left: 20px;
@@ -103,72 +96,62 @@ img {
     border-radius: 8px;
 }
 
-.main-text {
+.main-text{
     text-align: justify;
     font-size: 16px;
     margin-bottom: 20px;
     white-space: inherit;
 
 }
-
-.author-text {
+.author-text{
     font-family: cursive;
     font-size: 18px;
     margin-left: 6%;
 }
-
-.authorjpg {
+.authorjpg{
     margin-top: 20px;
     border-radius: 100%;
     width: 13%
-}
 
-.container {
-    box-shadow: 0px 0px 10px 10px rgba(55, 54, 51, 1);
+}
+.container{
+    box-shadow: 0px 0px 10px 10px rgba(55,54,51,1);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 
 }
-
-.blog-post {
-    margin-left: 60px;
-    margin-top: 50px;
-    float: left;
+.blog-post{
+    margin-top: 15px ;
+    float:left;
     width: 75%;
-    position: relative;
+    position: relative;    
 }
 
-.blog-post h2 {
-    text-align: center;
-    text-decoration: underline;
-}
-
-.recent-post {
+.recent-post{
     background-color: rgb(192, 231, 231);
     border: solid gray;
     width: 24%;
-    float: left;
+    float:left;
     margin-top: 100px;
     /* margin-right: 5px; */
     padding-left: 10px;
     padding-bottom: 100%;
-    border-radius: 10px;
+    border-radius:  10px ;
 }
 
-.author {
+.author{
     margin-bottom: 10px;
     background-color: rgb(192, 231, 231);
-    padding-top: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(55, 54, 51, 1);
+    padding-top:10px;
+    box-shadow: 0px 0px 10px 0px rgba(55,54,51,1);
     border-top: 5px solid rgb(184, 184, 184)
-}
 
-.date {
-    text-decoration: underline;
+}
+.date{
     position: absolute;
-    margin-top: 25px;
-    top: 0;
+    margin-top: 20px;
+    top:0;
     right: 0;
 
 }
